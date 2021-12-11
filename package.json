@@ -1,0 +1,16 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Изучение TypeScript с помощью создания блокчейна.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
